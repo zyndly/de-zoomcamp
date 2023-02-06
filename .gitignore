@@ -1,0 +1,57 @@
+# prefect artifacts
+.prefectignore
+
+# python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+
+# Type checking artifacts
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# IPython
+profile_default/
+ipython_config.py
+*.ipynb_checkpoints/*
+
+# Environments
+.python-version
+.env
+.venv
+env/
+venv/
+
+# MacOS
+.DS_Store
+
+# Dask
+dask-worker-space/
+
+# Editors
+.idea/
+.vscode/
+
+# VCS
+.git/
+.hg/
+
+setup/*
+week_1_basics_n_setup/data/*
+week_1_basics_n_setup/1_docker-sql/.ipynb_checkpoints
+week_1_basics_n_setup/1_docker-sql/ny_taxi_postgres_data*
+week_1_basics_n_setup/2_terraform-gcp/.terraform/*
+week_1_basics_n_setup/2_terraform-gcp/terraform.tfstate
+
+week_2_workflow_orchestration/data/*
+week_2_workflow_orchestration/yellow_tripdata_2021-01.csv.gz
+
+etl_web_to_gcs-deployment.yaml
+
+*.csv.gz
+*.csv
+*.parquet
